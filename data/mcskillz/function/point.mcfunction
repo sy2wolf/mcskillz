@@ -15,7 +15,7 @@ points: 10
 level: 1
 points_to_next_lvl: 10
 scale: 1.5
-
+teest
 #save points curent lvl
 scoreboard players operation @s mcskillz.mining_pnt_current = @s mcskillz.mining_pnt
 #check if max points for lvl
