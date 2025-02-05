@@ -1,0 +1,46 @@
+{
+    "criteria": {
+      "used_pickaxe": {
+        "trigger": "minecraft:item_durability_changed",
+        "conditions": {
+          "delta": -1,
+          "item": {
+            "items": [
+              "minecraft:netherite_pickaxe",
+              "minecraft:diamond_pickaxe",
+              "minecraft:golden_pickaxe",
+              "minecraft:iron_pickaxe",
+              "minecraft:stone_pickaxe",
+              "minecraft:wooden_pickaxe"
+            ]
+          }
+        }
+      },
+      "picked_up_stone": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:cobblestone",
+                "minecraft:stone",
+                "minecraft:diorite",
+                "minecraft:andesite",
+                "minecraft:granite",
+                "minecraft:calcite",
+                "minecraft:cobbled_deepslate",
+                "minecraft:deepslate",
+                "minecraft:tuff",
+                "minecraft:blackstone",
+                "minecraft:basalt",
+                "minecraft:netherrack"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "mcskillz:point"
+    }
+  }

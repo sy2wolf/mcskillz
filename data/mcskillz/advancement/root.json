@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "MCSkillz",
+            "color": "gold",
+            "bold": true
+        },
+        "description": {
+            "text": "Level up you Skillz."
+        },
+        "icon": {
+            "id": "minecraft:enchanted_book"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/map/map_background_checkerboard.png"
+    },
+    "criteria": {
+        "MCSkillz":{
+            "trigger": "minecraft:tick"
+        }
+    }
+}
