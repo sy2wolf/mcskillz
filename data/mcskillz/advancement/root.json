@@ -15,7 +15,7 @@
         "show_toast": false,
         "announce_to_chat": false,
         "hidden": false,
-        "background": "minecraft:textures/map/map_background_checkerboard.png"
+        "background": "minecraft:textures/block/emerald_block.png"
     },
     "criteria": {
         "MCSkillz":{
