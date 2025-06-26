@@ -41,6 +41,6 @@
       }
     },
     "rewards": {
-      "function": "mcskillz:point"
+      "function": "mcskillz:points/mining_points"
     }
   }

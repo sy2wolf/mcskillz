@@ -1,8 +1,3 @@
-#revoke the advancementtrigger
-advancement revoke @s only mcskillz:miningpoint
-#add 1 point
-scoreboard players add @s mcskillz.mining_pnt 1
-title @s actionbar ["Mining points: ", {"score":{"name":"@s","objective":"mcskillz.mining_pnt"}}]
 
 #calculate level
 execute if score @s mcskillz.mining_pnt matches 20 run scoreboard players set @s mcskillz.mining_lvl 1
