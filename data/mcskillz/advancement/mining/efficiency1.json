@@ -1,0 +1,38 @@
+{
+    "criteria": {
+        "stone collected": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:cobblestone",
+                            "minecraft:stone",
+                            "minecraft:diorite",
+                            "minecraft:andesite",
+                            "minecraft:granite",
+                            "minecraft:calcite",
+                            "minecraft:cobbled_deepslate",
+                            "minecraft:deepslate",
+                            "minecraft:tuff",
+                            "minecraft:blackstone",
+                            "minecraft:basalt",
+                            "minecraft:netherrack"
+                        ],
+                        "count": 100
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "stone collected"
+        ]
+    ],
+    "rewards": {
+        "loot": [
+            "mcskillz:efficiency1"
+        ]
+    }
+}
