@@ -1,0 +1,41 @@
+{
+    "parent":  "mcskillz:root",
+    "display": {
+        "icon": {
+            "id":  "minecraft:stone_pickaxe",
+            "count":  1,
+            "components": {
+                "enchantments": {
+                     "mending": 1
+                }
+            }
+        },
+        "title": "Mining",
+        "description": "Discover the skill of mining.",
+        "announce_to_chat":  true,
+        "hidden":  false,
+        "frame":  "task",
+        "show_toast": false
+    },
+    "criteria": {
+        "used_pickaxe":{
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "delta": -1,
+                "item": {
+                    "items": [
+                        "minecraft:netherite_pickaxe",
+                        "minecraft:diamond_pickaxe",
+                        "minecraft:golden_pickaxe",
+                        "minecraft:iron_pickaxe",
+                        "minecraft:stone_pickaxe",
+                        "minecraft:wooden_pickaxe"
+                    ]
+                }
+            }
+        }
+    },
+    "rewards": {
+        "experience": 7
+    }
+}

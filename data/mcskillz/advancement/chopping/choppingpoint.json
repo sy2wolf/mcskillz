@@ -1,0 +1,24 @@
+{
+  "parent": "mcskillz:root",
+    "criteria": {
+      "used_axe": {
+        "trigger": "minecraft:item_durability_changed",
+        "conditions": {
+          "delta": -1,
+          "item": {
+            "items": [
+              "minecraft:netherite_axe",
+              "minecraft:diamond_axe",
+              "minecraft:golden_axe",
+              "minecraft:iron_axe",
+              "minecraft:stone_axe",
+              "minecraft:wooden_axe"
+            ]
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "mcskillz:points/chopping_points"
+    }
+  }

@@ -1,0 +1,41 @@
+{
+    "parent":  "mcskillz:root",
+    "display": {
+        "icon": {
+            "id":  "minecraft:stone_axe",
+            "count":  1,
+            "components": {
+                "enchantments": {
+                    "mending": 1
+                }
+            }
+        },
+        "title": "Chopping",
+        "description": "Discover the skill of chopping",
+        "announce_to_chat":  true,
+        "hidden":  false,
+        "frame":  "task",
+        "show_toast": false
+    },
+    "criteria": {
+        "used_axe":{
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "delta": -1,
+                "item": {
+                    "items": [
+                        "minecraft:netherite_axe",
+                        "minecraft:diamond_axe",
+                        "minecraft:golden_axe",
+                        "minecraft:iron_axe",
+                        "minecraft:stone_axe",
+                        "minecraft:wooden_axe"
+                    ]
+                }
+            }
+        }
+    },
+    "rewards": {
+        "experience": 7
+    }
+}
