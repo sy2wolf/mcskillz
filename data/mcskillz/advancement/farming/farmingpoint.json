@@ -1,22 +1,6 @@
 {
     "criteria": {
-      "used_shovel": {
-        "trigger": "minecraft:item_durability_changed",
-        "conditions": {
-          "delta": -1,
-          "item": {
-            "items": [
-              "minecraft:netherite_shovel",
-              "minecraft:diamond_shovel",
-              "minecraft:golden_shovel",
-              "minecraft:iron_shovel",
-              "minecraft:stone_shovel",
-              "minecraft:wooden_shovel"
-            ]
-          }
-        }
-      },
-      "Dirt":{
+      "Crops":{
         "trigger": "minecraft:inventory_changed",
         "conditions": {
             "items": [
@@ -29,10 +13,31 @@
                             "minecraft:wheat"
                         ]
                 }
-            ]
+            ],
+            "player": {
+                "type": "minecraft:player",
+                "slots": {
+                    "weapon.mainhand": {
+                      "items": 
+                        [
+                            "minecraft:netherite_hoe",
+                            "minecraft:diamond_hoe",
+                            "minecraft:golden_hoe",
+                            "minecraft:iron_hoe",
+                            "minecraft:stone_hoe",
+                            "minecraft:wooden_hoe"
+                        ]
+                    }
+                }
+            }
         }
       }
     },
+    "requirements": [
+      [
+        "Crops"
+      ]
+    ],
     "rewards": {
       "function": "mcskillz:points/digging_points"
     }
