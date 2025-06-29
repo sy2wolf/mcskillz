@@ -33,12 +33,7 @@
         }
       }
     },
-    "requirements": [
-      [
-        "Crops"
-      ]
-    ],
     "rewards": {
-      "function": "mcskillz:points/digging_points"
+      "function": "mcskillz:points/farming_points"
     }
   }
