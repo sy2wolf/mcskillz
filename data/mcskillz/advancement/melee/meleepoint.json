@@ -7,17 +7,50 @@
           "item": {
             "items": [
               "minecraft:netherite_sword",
+              "minecraft:netherite_axe",
               "minecraft:diamond_sword",
+              "minecraft:diamond_axe",
               "minecraft:golden_sword",
+              "minecraft:golden_axe",
               "minecraft:iron_sword",
+              "minecraft:iron_axe",
               "minecraft:stone_sword",
-              "minecraft:wooden_sword"
+              "minecraft:stone_axe",
+              "minecraft:wooden_sword",
+              "minecraft:wooden_axe"
             ]
+          }
+        }
+      },
+      "killed_mob": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": {},
+          "player": {
+            "type": "minecraft:player",
+            "equipment": {
+              "mainhand": {
+                "items": [
+                  "minecraft:netherite_sword",
+                  "minecraft:netherite_axe",
+                  "minecraft:diamond_sword",
+                  "minecraft:diamond_axe",
+                  "minecraft:golden_sword",
+                  "minecraft:golden_axe",
+                  "minecraft:iron_sword",
+                  "minecraft:iron_axe",
+                  "minecraft:stone_sword",
+                  "minecraft:stone_axe",
+                  "minecraft:wooden_sword",
+                  "minecraft:wooden_axe"
+                ]
+              }
+            }
           }
         }
       }
     },
     "rewards": {
-      "function": "mcskillz:points/mining_points"
+      "function": "mcskillz:points/melee_points"
     }
   }
