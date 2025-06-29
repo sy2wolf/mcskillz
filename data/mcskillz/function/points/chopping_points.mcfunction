@@ -4,7 +4,7 @@ advancement revoke @s only mcskillz:chopping/choppingpoint
 #add 1 point
 scoreboard players add @s mcskillz.chopping_pnt 1
 scoreboard players add @s mcskillz.chopping_lvl 0
-title @s actionbar {"text":"chopping lvl: ","color":"green",bold:true,"extra":[{"score":{"name":"@s","objective":"mcskillz.chopping_lvl"}}]}
+title @s actionbar {"text":"chopping lvl: ","color":"green","bold":true,"extra":[{"score":{"name":"@s","objective":"mcskillz.chopping_lvl"}}]}
 
 ## calculate level
 #level 1

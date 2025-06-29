@@ -1,0 +1,45 @@
+{
+    "criteria": {
+      "used_shovel": {
+        "trigger": "minecraft:item_durability_changed",
+        "conditions": {
+          "delta": -1,
+          "item": {
+            "items": [
+              "minecraft:netherite_shovel",
+              "minecraft:diamond_shovel",
+              "minecraft:golden_shovel",
+              "minecraft:iron_shovel",
+              "minecraft:stone_shovel",
+              "minecraft:wooden_shovel"
+            ]
+          }
+        }
+      },
+      "Dirt":{
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+            "items": [
+                {
+                    "items": 
+                    "#dirt"
+                },
+                {
+                    "items":[
+                        "minecraft:sand",
+                        "minecraft:gravel"
+                    ]
+                },
+                {
+                    "items": [
+                        "minecraft:gravel"
+                    ]
+                }
+            ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "mcskillz:points/digging_points"
+    }
+  }

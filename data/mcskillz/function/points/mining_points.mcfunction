@@ -4,7 +4,7 @@ advancement revoke @s only mcskillz:mining/miningpoint
 #add 1 point
 scoreboard players add @s mcskillz.mining_pnt 1
 scoreboard players add @s mcskillz.mining_lvl 0
-title @s actionbar {"text":"Mining lvl: ","color":"green",bold:true,"extra":[{"score":{"name":"@s","objective":"mcskillz.mining_lvl"}}]}
+title @s actionbar {"text":"Mining lvl: ","color":"green","bold":true,"extra":[{"score":{"name":"@s","objective":"mcskillz.mining_lvl"}}]}
 
 ## calculate level
 #level 1

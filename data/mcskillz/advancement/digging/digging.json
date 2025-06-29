@@ -1,0 +1,41 @@
+{
+    "parent":  "mcskillz:root",
+    "display": {
+        "icon": {
+            "id":  "minecraft:stone_shovel",
+            "count":  1,
+            "components": {
+                "enchantments": {
+                     "mending": 1
+                }
+            }
+        },
+        "title": "Digging",
+        "description": "Discover the skill of digging.",
+        "announce_to_chat":  true,
+        "hidden":  false,
+        "frame":  "task",
+        "show_toast": false
+    },
+    "criteria": {
+        "used_shovel":{
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "delta": -1,
+                "item": {
+                    "items": [
+                        "minecraft:netherite_shovel",
+                        "minecraft:diamond_shovel",
+                        "minecraft:golden_shovel",
+                        "minecraft:iron_shovel",
+                        "minecraft:stone_shovel",
+                        "minecraft:wooden_shovel"
+                    ]
+                }
+            }
+        }
+    },
+    "rewards": {
+        "experience": 7
+    }
+}

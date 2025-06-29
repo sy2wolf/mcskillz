@@ -1,0 +1,41 @@
+{
+    "parent":  "mcskillz:root",
+    "display": {
+        "icon": {
+            "id":  "minecraft:stone_sword",
+            "count":  1,
+            "components": {
+                "enchantments": {
+                     "mending": 1
+                }
+            }
+        },
+        "title": "Melee",
+        "description": "Discover the skill of melee.",
+        "announce_to_chat":  true,
+        "hidden":  false,
+        "frame":  "task",
+        "show_toast": false
+    },
+    "criteria": {
+        "used_sword":{
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "delta": -1,
+                "item": {
+                    "items": [
+                        "minecraft:netherite_sword",
+                        "minecraft:diamond_sword",
+                        "minecraft:golden_sword",
+                        "minecraft:iron_sword",
+                        "minecraft:stone_sword",
+                        "minecraft:wooden_sword"
+                    ]
+                }
+            }
+        }
+    },
+    "rewards": {
+        "experience": 7
+    }
+}

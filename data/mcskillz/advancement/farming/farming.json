@@ -1,0 +1,41 @@
+{
+    "parent":  "mcskillz:root",
+    "display": {
+        "icon": {
+            "id":  "minecraft:stone_hoe",
+            "count":  1,
+            "components": {
+                "enchantments": {
+                     "mending": 1
+                }
+            }
+        },
+        "title": "Farming",
+        "description": "Discover the skill of farming.",
+        "announce_to_chat":  true,
+        "hidden":  false,
+        "frame":  "task",
+        "show_toast": false
+    },
+    "criteria": {
+        "used_hoe":{
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "delta": -1,
+                "item": {
+                    "items": [
+                        "minecraft:netherite_hoe",
+                        "minecraft:diamond_hoe",
+                        "minecraft:golden_hoe",
+                        "minecraft:iron_hoe",
+                        "minecraft:stone_hoe",
+                        "minecraft:wooden_hoe"
+                    ]
+                }
+            }
+        }
+    },
+    "rewards": {
+        "experience": 7
+    }
+}
