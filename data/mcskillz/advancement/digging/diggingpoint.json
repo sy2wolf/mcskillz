@@ -21,20 +21,20 @@
         "conditions": {
             "items": [
                 {
-                    "items": 
-                    "#dirt"
-                },
-                {
                     "items":[
+                        "minecraft:dirt",
+                        "minecraft:coarse_dirt",
+                        "minecraft:rooted_dirt",
+                        "minecraft:podzol",
+                        "minecraft:mycelium",
+                        "minecraft:grass_block",
                         "minecraft:sand",
-                        "minecraft:gravel"
-                    ]
-                },
-                {
-                    "items": [
-                        "minecraft:gravel"
-                    ]
-                }
+                        "minecraft:red_sand",
+                        "minecraft:gravel",
+                        "minecraft:clay",
+                        "minecraft:mud",
+                        "minecraft:muddy_mangrove_roots"
+                    ]                }
             ]
         }
       }

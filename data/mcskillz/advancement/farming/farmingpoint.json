@@ -22,7 +22,12 @@
             "items": [
                 {
                     "items": 
-                    "#dirt"
+                        [
+                            "minecraft:carrot",
+                            "minecraft:potato",
+                            "minecraft:beetroot",
+                            "minecraft:wheat"
+                        ]
                 }
             ]
         }
