@@ -3,6 +3,9 @@
 advancement revoke @s only mcskillz:melee/meleepoint
 #add 1 point
 scoreboard players add @s mcskillz.melee_pnt 1
+execute as @s if predicate mcskillz:unbreaking_1 run scoreboard players add @s mcskillz.melee_pnt 1
+execute as @s if predicate mcskillz:unbreaking_2 run scoreboard players add @s mcskillz.melee_pnt 2
+execute as @s if predicate mcskillz:unbreaking_3 run scoreboard players add @s mcskillz.melee_pnt 3
 scoreboard players add @s mcskillz.melee_lvl 0
 scoreboard players add @s mcskillz.melee_lvlup_pnt 0
 

@@ -4,6 +4,18 @@
 #confirm if datapack is being uninstalled.
 tellraw @a {"text": "The mcskillz-datapack being uninstalled!", "color": "gray", "italic": true}
 
+advancement revoke @a from mcskillz:root
+advancement revoke @a from mcskillz:mining/mining
+advancement revoke @a from mcskillz:mining/miningpoint
+advancement revoke @a from mcskillz:chopping/chopping
+advancement revoke @a from mcskillz:chopping/choppingpoint
+advancement revoke @a from mcskillz:digging/digging
+advancement revoke @a from mcskillz:digging/diggingpoint
+advancement revoke @a from mcskillz:melee/melee
+advancement revoke @a from mcskillz:melee/meleepoint
+advancement revoke @a from mcskillz:farming/farming
+advancement revoke @a from mcskillz:farming/farmingpoint
+
 ## Scoreboards
 scoreboard objectives remove mcskillz.bossbarTimer
 bossbar remove mcskillz:points
