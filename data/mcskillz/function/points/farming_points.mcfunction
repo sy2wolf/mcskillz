@@ -3,9 +3,6 @@
 advancement revoke @s only mcskillz:farming/farmingpoint
 #add 1 point
 scoreboard players add @s mcskillz.farming_pnt 1
-execute as @s if predicate mcskillz:unbreaking_1 run scoreboard players add @s mcskillz.farming_pnt 1
-execute as @s if predicate mcskillz:unbreaking_2 run scoreboard players add @s mcskillz.farming_pnt 2
-execute as @s if predicate mcskillz:unbreaking_3 run scoreboard players add @s mcskillz.farming_pnt 3
 scoreboard players add @s mcskillz.farming_lvl 0
 scoreboard players add @s mcskillz.farming_lvlup_pnt 0
 
