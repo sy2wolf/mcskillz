@@ -15,7 +15,7 @@
         "show_toast": false,
         "announce_to_chat": false,
         "hidden": false,
-        "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png"
+        "background": "minecraft:block/dirt_path_top"
     },
     "criteria": {
         "MCSkillz":{
