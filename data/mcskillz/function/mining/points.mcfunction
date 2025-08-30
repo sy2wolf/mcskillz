@@ -15,5 +15,7 @@ scoreboard players add @s mcskillz.mining_lvlup_pnt 0
 execute if score @s mcskillz.mining_pnt >= @s mcskillz.mining_lvlup_pnt run function mcskillz:mining/lvlup
 
 ## show skill level up
-#show skill actionbar
-title @p actionbar [{"text":"Mining lvl: ","color":green,"bold":true},{"score":{"name":"@s","objective":"mcskillz.mining_lvl"},"color":green,"bold":false},{"text":" | Xp: ","color":green,"bold":false},{"score":{"name":"@s","objective":"mcskillz.mining_pnt"},"color":green,"bold":false},{"text":"/","color":green,"bold":false},{"score":{"name":"@s","objective":"mcskillz.mining_lvlup_pnt"},"color":green,"bold":false}]
+function mcskillz:mining/ui
+
+## reset advancement
+advancement revoke @s only mcskillz:mining/miningpoint

@@ -16,21 +16,21 @@
       "label": "Scoreboard",
       "action": {
         "type": "run_command",
-        "command": "function mcskillz:scoreboard/mining"
+        "command": "function mcskillz:mining/scoreboard"
       }
     },
     {
       "label": "My score",
       "action": {
         "type": "run_command",
-        "command": "function mcskillz:display/mining"
+        "command": "function mcskillz:mining/ui"
       }
     },
     {
       "label": "Reset skill",
       "action": {
         "type": "run_command",
-        "command": "execute as @s run function mcskillz:reset/mining"
+        "command": "execute as @s run function mcskillz:mining/reset"
       }
     }
   ]
