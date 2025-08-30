@@ -5,49 +5,7 @@
         "conditions": {
           "delta": -1,
           "item": {
-            "items": [
-              "minecraft:netherite_pickaxe",
-              "minecraft:diamond_pickaxe",
-              "minecraft:golden_pickaxe",
-              "minecraft:iron_pickaxe",
-              "minecraft:stone_pickaxe",
-              "minecraft:wooden_pickaxe"
-            ]
-          }
-        }
-      },
-      "picked_up_stone": {
-        "trigger": "inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": [
-                "minecraft:stone",
-                "minecraft:cobblestone",
-                "minecraft:deepslate",
-                "minecraft:cobbled_deepslate",
-                "minecraft:andesite",
-                "minecraft:diorite",
-                "minecraft:granite",
-                "minecraft:tuff",
-                "minecraft:calcite",
-                "minecraft:blackstone"
-              ]
-            }
-          ],
-          "player": {
-            "slots": {
-              "weapon.mainhand": {
-                "items": [
-                  "minecraft:netherite_pickaxe",
-                  "minecraft:diamond_pickaxe",
-                  "minecraft:golden_pickaxe",
-                  "minecraft:iron_pickaxe",
-                  "minecraft:stone_pickaxe",
-                  "minecraft:wooden_pickaxe"
-                ]
-              }
-            }
+            "items": "#minecraft:pickaxes"
           }
         }
       }
@@ -55,9 +13,6 @@
     "requirements": [
       [
         "used_pickaxe"
-      ],
-      [
-        "picked_up_stone"
       ]
     ],
     "rewards": {

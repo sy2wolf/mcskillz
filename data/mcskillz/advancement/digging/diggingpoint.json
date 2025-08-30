@@ -5,37 +5,8 @@
         "conditions": {
           "delta": -1,
           "item": {
-            "items": [
-              "minecraft:netherite_shovel",
-              "minecraft:diamond_shovel",
-              "minecraft:golden_shovel",
-              "minecraft:iron_shovel",
-              "minecraft:stone_shovel",
-              "minecraft:wooden_shovel"
-            ]
+            "items": "#minecraft:shovels"
           }
-        }
-      },
-      "Dirt":{
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-            "items": [
-                {
-                    "items":[
-                        "minecraft:dirt",
-                        "minecraft:coarse_dirt",
-                        "minecraft:rooted_dirt",
-                        "minecraft:podzol",
-                        "minecraft:mycelium",
-                        "minecraft:grass_block",
-                        "minecraft:sand",
-                        "minecraft:red_sand",
-                        "minecraft:gravel",
-                        "minecraft:clay",
-                        "minecraft:mud",
-                        "minecraft:muddy_mangrove_roots"
-                    ]                }
-            ]
         }
       }
     },

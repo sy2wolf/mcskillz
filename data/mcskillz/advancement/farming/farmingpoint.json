@@ -1,38 +1,20 @@
 {
     "criteria": {
-      "Crops":{
-        "trigger": "minecraft:inventory_changed",
+      "used_hoe":{
+        "trigger": "minecraft:item_durability_changed",
         "conditions": {
-            "items": [
-                {
-                    "items": 
-                        [
-                            "minecraft:carrot",
-                            "minecraft:potato",
-                            "minecraft:beetroot",
-                            "minecraft:wheat"
-                        ]
-                }
-            ],
-            "player": {
-                "type": "minecraft:player",
-                "slots": {
-                    "weapon.mainhand": {
-                      "items": 
-                        [
-                            "minecraft:netherite_hoe",
-                            "minecraft:diamond_hoe",
-                            "minecraft:golden_hoe",
-                            "minecraft:iron_hoe",
-                            "minecraft:stone_hoe",
-                            "minecraft:wooden_hoe"
-                        ]
-                    }
-                }
-            }
+          "delta": -1,
+          "item": {
+            "items": "#minecraft:hoes"
+          }
         }
       }
     },
+    "requirements": [
+      [
+        "used_hoe"
+      ]
+    ],
     "rewards": {
       "function": "mcskillz:points/farming_points"
     }
