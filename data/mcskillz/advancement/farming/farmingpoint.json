@@ -16,6 +16,6 @@
       ]
     ],
     "rewards": {
-      "function": "mcskillz:points/farming_points"
+      "function": "mcskillz:farming/points"
     }
   }

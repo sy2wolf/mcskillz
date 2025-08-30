@@ -11,6 +11,6 @@
       }
     },
     "rewards": {
-      "function": "mcskillz:points/digging_points"
+      "function": "mcskillz:digging/points"
     }
   }

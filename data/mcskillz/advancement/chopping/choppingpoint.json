@@ -12,6 +12,6 @@
       }
     },
     "rewards": {
-      "function": "mcskillz:points/chopping_points"
+      "function": "mcskillz:chopping/points"
     }
   }

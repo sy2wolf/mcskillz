@@ -16,6 +16,6 @@
       ]
     ],
     "rewards": {
-      "function": "mcskillz:points/mining_points"
+      "function": "mcskillz:mining/points"
     }
   }
