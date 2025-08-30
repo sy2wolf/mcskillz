@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "Mining",
+  "external_title": "Mining info",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": [
+      {
+        "text": "This skill is trained by mining stones and ores.",
+        "color": "gray"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "label": "Scoreboard",
+      "action": {
+        "type": "run_command",
+        "command": "function mcskillz:scoreboard/mining"
+      }
+    },
+    {
+      "label": "My score",
+      "action": {
+        "type": "run_command",
+        "command": "function mcskillz:display/mining"
+      }
+    },
+    {
+      "label": "Reset skill",
+      "action": {
+        "type": "run_command",
+        "command": "execute as @s run function mcskillz:reset/mining"
+      }
+    }
+  ]
+}

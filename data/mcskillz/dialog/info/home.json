@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:dialog_list",
+  "title": "MCskillz info",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": {
+      "text": "If you want to learn more about the skills, show your current score or display a leaderbord. here you wil find all the info how to do that, just choose the skill you want info about in the list below.",
+      "color": "gray"
+    }
+  },
+  "can_close_with_escape": true,
+  "pause": true,
+  "dialogs": [
+    "mcskillz:info/mining"
+  ]
+}
