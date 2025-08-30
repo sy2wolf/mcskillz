@@ -1,0 +1,34 @@
+{
+    "parent": "mcskillz:root",
+    "display": {
+        "icon": {
+            "id": "minecraft:leather_boots",
+            "count": 1,
+            "components": {
+                "enchantments": {
+                    "mending": 1
+                }
+            }
+        },
+        "title": "Agility",
+        "description": "Discover the skill of agility",
+        "announce_to_chat": true,
+        "hidden": false,
+        "frame": "task",
+        "show_toast": false
+    },
+    "criteria": {
+        "undetected":{
+            "trigger": "minecraft:avoid_vibration"
+        },
+        "wallslide":{
+            "trigger": "minecraft:slide_down_block",
+            "conditions": {
+                "block": "minecraft:honey_block"
+            }
+        }
+    },
+    "rewards": {
+        "experience": 7
+    }
+}

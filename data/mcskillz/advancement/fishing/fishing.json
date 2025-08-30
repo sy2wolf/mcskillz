@@ -1,0 +1,28 @@
+{
+    "parent": "mcskillz:root",
+    "display": {
+        "icon": {
+            "id": "minecraft:fishing_rod",
+            "count": 1,
+            "components": {
+                "enchantments": {
+                    "mending": 1
+                }
+            }
+        },
+        "title": "Fishing",
+        "description": "Discover the skill of fishing.",
+        "announce_to_chat": true,
+        "hidden": false,
+        "frame": "task",
+        "show_toast": false
+    },
+    "criteria": {
+        "hooked":{
+            "trigger": "minecraft:fishing_rod_hooked"
+        }
+    },
+    "rewards": {
+        "experience": 7
+    }
+}
