@@ -6,9 +6,9 @@ scoreboard players add @s mcskillz.farming_pnt 1
 scoreboard players add @s mcskillz.farming_lvl 0
 scoreboard players add @s mcskillz.farming_lvlup_pnt 0
 
+#check if player has enough points to level up.
 execute if score @s mcskillz.farming_pnt >= @s mcskillz.farming_lvlup_pnt run function mcskillz:points/farming_lvlup
 
-execute as @a store result bossbar mcskillz:points value run scoreboard players get @s mcskillz.farming_pnt
-execute as @a store result bossbar mcskillz:points max run scoreboard players get @s mcskillz.farming_lvlup_pnt
-bossbar set mcskillz:points name {"text":"Farming lvl: ","color":"white","extra":[{"score":{"name":"@s","objective":"mcskillz.farming_lvl"},"color":"light_purple"}]}
-scoreboard players set @s mcskillz.bossbarTimer 40
+## show skill level up
+#show skill actionbar
+title @p actionbar [{"text":"Farming lvl: ","color":green,"bold":true},{"score":{"name":"@s","objective":"mcskillz.farming_lvl"},"color":green,"bold":false},{"text":" | Xp: ","color":green,"bold":false},{"score":{"name":"@s","objective":"mcskillz.farming_pnt"},"color":green,"bold":false},{"text":"/","color":green,"bold":false},{"score":{"name":"@s","objective":"mcskillz.farming_lvlup_pnt"},"color":green,"bold":false}]
