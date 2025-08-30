@@ -1,14 +1,12 @@
 ## Reloading progress
 #confirm if datapack is loaded.
-tellraw @a[gamemode=creative] {"text": "mcskillz-datapack loaded", "color": "gray", "italic": true}
+tellraw @s {"text": "mcskillz-datapack loaded", "color": "gray", "italic": true}
 
 ## Advancements
 #activate advancementtree for everyone.
 advancement grant @a only mcskillz:root
 
 ## Scoreboards
-scoreboard objectives add mcskillz.bossbarTimer dummy
-bossbar add mcskillz:points "Points"
 scoreboard objectives add mcskillz.lvl dummy
 scoreboard objectives add mcskillz.lvlup_pnt dummy
 scoreboard objectives add mcskillz.lvl_scale dummy
