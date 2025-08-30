@@ -1,27 +1,5 @@
 {
     "criteria": {
-      "used_sword": {
-        "trigger": "minecraft:item_durability_changed",
-        "conditions": {
-          "delta": -1,
-          "item": {
-            "items": [
-              "minecraft:netherite_sword",
-              "minecraft:netherite_axe",
-              "minecraft:diamond_sword",
-              "minecraft:diamond_axe",
-              "minecraft:golden_sword",
-              "minecraft:golden_axe",
-              "minecraft:iron_sword",
-              "minecraft:iron_axe",
-              "minecraft:stone_sword",
-              "minecraft:stone_axe",
-              "minecraft:wooden_sword",
-              "minecraft:wooden_axe"
-            ]
-          }
-        }
-      },
       "killed_mob": {
         "trigger": "minecraft:player_killed_entity",
         "conditions": {
@@ -30,20 +8,7 @@
             "type": "minecraft:player",
             "equipment": {
               "mainhand": {
-                "items": [
-                  "minecraft:netherite_sword",
-                  "minecraft:netherite_axe",
-                  "minecraft:diamond_sword",
-                  "minecraft:diamond_axe",
-                  "minecraft:golden_sword",
-                  "minecraft:golden_axe",
-                  "minecraft:iron_sword",
-                  "minecraft:iron_axe",
-                  "minecraft:stone_sword",
-                  "minecraft:stone_axe",
-                  "minecraft:wooden_sword",
-                  "minecraft:wooden_axe"
-                ]
+                    "items": "#minecraft:swords"
               }
             }
           }
@@ -51,6 +16,6 @@
       }
     },
     "rewards": {
-      "function": "mcskillz:points/melee_points"
+      "function": "mcskillz:melee/points"
     }
   }
