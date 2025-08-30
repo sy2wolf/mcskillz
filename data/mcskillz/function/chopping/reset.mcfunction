@@ -1,0 +1,8 @@
+#reset chopping skill points
+scoreboard players set @s mcskillz.chopping_pnt 0
+scoreboard players set @s mcskillz.chopping_lvlup_pnt 0
+scoreboard players set @s mcskillz.chopping_lvl 0
+
+#revoke advancement
+advancement revoke @s from mcskillz:chopping/chopping
+advancement revoke @s from mcskillz:chopping/choppingpoint

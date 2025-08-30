@@ -1,12 +1,12 @@
 {
   "type": "minecraft:multi_action",
-  "title": "Mining info",
-  "external_title": "Mining",
+  "title": "Digging info",
+  "external_title": "Digging",
   "body": {
     "type": "minecraft:plain_message",
     "contents": [
       {
-        "text": "This skill is trained by mining stones and ores.",
+        "text": "This skill is trained by digging dirt, gravel, sand, clay and mud.",
         "color": "gray"
       }
     ]
@@ -16,21 +16,21 @@
       "label": "Scoreboard",
       "action": {
         "type": "run_command",
-        "command": "function mcskillz:mining/scoreboard"
+        "command": "function mcskillz:digging/scoreboard"
       }
     },
     {
       "label": "My score",
       "action": {
         "type": "run_command",
-        "command": "function mcskillz:mining/ui"
+        "command": "function mcskillz:digging/ui"
       }
     },
     {
       "label": {"text":"Reset skill","color":"red"},
       "action": {
         "type": "run_command",
-        "command": "execute as @s run function mcskillz:mining/reset"
+        "command": "execute as @s run function mcskillz:digging/reset"
       }
     }
   ]

@@ -11,6 +11,10 @@
   "can_close_with_escape": true,
   "pause": true,
   "dialogs": [
-    "mcskillz:info/mining"
+    "mcskillz:info/mining",
+    "mcskillz:info/chopping",
+    "mcskillz:info/digging",
+    "mcskillz:info/farming",
+    "mcskillz:info/melee"
   ]
 }

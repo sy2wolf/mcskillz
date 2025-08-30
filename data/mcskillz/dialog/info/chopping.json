@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "Chopping info",
+  "external_title": "Chopping",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": [
+      {
+        "text": "This skill is trained by chopping logs.",
+        "color": "gray"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "label": "Scoreboard",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function mcskillz:chopping/scoreboard"
+      }
+    },
+    {
+      "label": "My score",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function mcskillz:chopping/ui"
+      }
+    },
+    {
+      "label": {"text":"Reset skill","color":"red"},
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "execute as @s run function mcskillz:chopping/reset"
+      }
+    }
+  ]
+}
