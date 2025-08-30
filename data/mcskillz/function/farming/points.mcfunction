@@ -7,7 +7,7 @@ scoreboard players add @s mcskillz.farming_lvl 0
 scoreboard players add @s mcskillz.farming_lvlup_pnt 0
 
 #check if player has enough points to level up.
-execute if score @s mcskillz.farming_pnt >= @s mcskillz.farming_lvlup_pnt run function mcskillz:points/farming_lvlup
+execute if score @s mcskillz.farming_pnt >= @s mcskillz.farming_lvlup_pnt run function mcskillz:farming/lvlup
 
 ## show skill level up
 #show skill actionbar

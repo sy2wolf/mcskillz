@@ -10,7 +10,7 @@ scoreboard players add @s mcskillz.melee_lvl 0
 scoreboard players add @s mcskillz.melee_lvlup_pnt 0
 
 #check if player has enough points to level up.
-execute if score @s mcskillz.melee_pnt >= @s mcskillz.melee_lvlup_pnt run function mcskillz:points/melee_lvlup
+execute if score @s mcskillz.melee_pnt >= @s mcskillz.melee_lvlup_pnt run function mcskillz:melee/lvlup
 
 ## show skill level up
 #show skill actionbar

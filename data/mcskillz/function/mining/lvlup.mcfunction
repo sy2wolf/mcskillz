@@ -1,11 +1,10 @@
-#add a alvel to the mining score
+#add a level to the mining score
 scoreboard players add @s mcskillz.mining_lvl 1
-#give the player 1 experience level
-experience add @s 1 levels
+#give the player 1 experience point
+experience add @s 1 points
 playsound minecraft:entity.player.levelup player @s ~ ~ ~ 1 1
 #send a message to the player
-tellraw @s {"text":"You gained 1 mining level!","color":"green","bold":true,"italic":false}
-tellraw @s {"text":"Your mining level is now: ","color":"green","bold":true,"italic":false,"extra":[{"score":{"name":"@s","objective":"mcskillz.mining_lvl"}}]}
+tellraw @s [{"text":"You gained 1 mining level!","color":"green","bold":true,"italic":false},{"text":"\nYour mining level is now: ","color":"green","bold":false,"italic":false},{"score":{"name":"@s","objective":"mcskillz.mining_lvl"}}]
 
 # mcskillz.lvl
 # mcskillz.lvlup_pnt

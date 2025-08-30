@@ -10,7 +10,7 @@ scoreboard players add @s mcskillz.digging_lvl 0
 scoreboard players add @s mcskillz.digging_lvlup_pnt 0
 
 #check if player has enough points to level up.
-execute if score @s mcskillz.digging_pnt >= @s mcskillz.digging_lvlup_pnt run function mcskillz:points/digging_lvlup
+execute if score @s mcskillz.digging_pnt >= @s mcskillz.digging_lvlup_pnt run function mcskillz:digging/lvlup
 
 ## show skill level up
 #show skill actionbar

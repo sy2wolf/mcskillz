@@ -10,7 +10,7 @@ scoreboard players add @s mcskillz.chopping_lvl 0
 scoreboard players add @s mcskillz.chopping_lvlup_pnt 0
 
 #check if player has enough points to level up.
-execute if score @s mcskillz.chopping_pnt >= @s mcskillz.chopping_lvlup_pnt run function mcskillz:points/chopping_lvlup
+execute if score @s mcskillz.chopping_pnt >= @s mcskillz.chopping_lvlup_pnt run function mcskillz:chopping/lvlup
 
 ## show skill level up
 #show skill actionbar

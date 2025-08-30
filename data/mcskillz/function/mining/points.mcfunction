@@ -12,7 +12,7 @@ scoreboard players add @s mcskillz.mining_lvl 0
 scoreboard players add @s mcskillz.mining_lvlup_pnt 0
 
 #check if player has enough points to level up.
-execute if score @s mcskillz.mining_pnt >= @s mcskillz.mining_lvlup_pnt run function mcskillz:points/mining_lvlup
+execute if score @s mcskillz.mining_pnt >= @s mcskillz.mining_lvlup_pnt run function mcskillz:mining/lvlup
 
 ## show skill level up
 #show skill actionbar
