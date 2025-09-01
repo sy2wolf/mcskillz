@@ -1,38 +1,14 @@
-#this function is needed when you want to uninstall the pack, it removes the scoreboards removeed by the datapack.
+#this function is needed when you want to uninstall the pack, it removes the scoreboards created by the datapack.
 
 ## Uninstall progress
 #confirm if datapack is being uninstalled.
 tellraw @a {"text": "The mcskillz-datapack being uninstalled!", "color": "gray", "italic": true}
 
+## Advancements
+#remove advancementtree for everyone.
 advancement revoke @a from mcskillz:root
-advancement revoke @a from mcskillz:mining/mining
-advancement revoke @a from mcskillz:mining/miningpoint
-advancement revoke @a from mcskillz:chopping/chopping
-advancement revoke @a from mcskillz:chopping/choppingpoint
-advancement revoke @a from mcskillz:digging/digging
-advancement revoke @a from mcskillz:digging/diggingpoint
-advancement revoke @a from mcskillz:melee/melee
-advancement revoke @a from mcskillz:melee/meleepoint
-advancement revoke @a from mcskillz:farming/farming
-advancement revoke @a from mcskillz:farming/farmingpoint
 
 ## Scoreboards
-scoreboard objectives remove mcskillz.bossbarTimer
-bossbar remove mcskillz:points
-scoreboard objectives remove mcskillz.lvl
-scoreboard objectives remove mcskillz.lvlup_pnt
-scoreboard objectives remove mcskillz.lvl_scale
-scoreboard objectives remove mcskillz.lvl_offset
-
-# math
-scoreboard objectives remove mcskillz.math_in
-scoreboard objectives remove mcskillz.math_in_w
-scoreboard objectives remove mcskillz.math_out
-scoreboard objectives remove mcskillz.math_k1
-scoreboard objectives remove mcskillz.math_k2
-scoreboard objectives remove mcskillz.math_k3
-scoreboard objectives remove mcskillz.math_k4
-
 # mining
 scoreboard objectives remove mcskillz.mining_pnt
 scoreboard objectives remove mcskillz.mining_lvl
@@ -88,4 +64,6 @@ scoreboard objectives remove mcskillz.endurance_pnt
 scoreboard objectives remove mcskillz.endurance_lvl
 scoreboard objectives remove mcskillz.endurance_lvlup_pnt
 
+## uninstall complete
 tellraw @a {"text": "The mcskillz-datapack has been uninstalled!", "color": "gray", "italic": true}
+datapack disable "file/mcskillz"
