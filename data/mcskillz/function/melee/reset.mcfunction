@@ -7,4 +7,4 @@ scoreboard players set @s mcskillz.melee_lvl 0
 advancement revoke @s from mcskillz:melee/meleepoint
 
 #announce reset
-tellraw @s [{"text":"[Melee] ","color":"green","bold":true},{"text":"Your melee skill has been reset!","color":"white"}]
+tellraw @s [{"text":"[MCSkillz] ","color":"green","bold":true},{"text":"Your melee skill has been reset!","color":"white"}]

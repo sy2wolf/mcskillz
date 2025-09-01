@@ -7,4 +7,4 @@ scoreboard players set @s mcskillz.mining_lvl 0
 advancement revoke @s from mcskillz:mining/miningpoint
 
 #announce reset
-tellraw @s [{"text":"[Mining] ","color":"green","bold":true},{"text":"Your mining skill has been reset!","color":"white"}]
+tellraw @s [{"text":"[MCSkillz] ","color":"green","bold":true},{"text":"Your mining skill has been reset!","color":"white"}]
