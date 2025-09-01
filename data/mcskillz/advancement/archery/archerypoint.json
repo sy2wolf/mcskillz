@@ -1,0 +1,32 @@
+{
+    "parent": "mcskillz:root",
+    "display": {
+        "icon": {
+            "id": "minecraft:arrow",
+            "count": 1,
+            "components": {
+                "enchantments": {
+                    "mending": 1
+                }
+            }
+        },
+        "title": "Archery",
+        "description": "Discover the skill of archery",
+        "announce_to_chat": true,
+        "hidden": false,
+        "frame": "task",
+        "show_toast": false
+    },
+    "criteria": {
+        "killed_with_arrow":{
+            "trigger": "minecraft:killed_by_arrow"
+        }
+    },
+    "requirements": [
+        [
+            "killed_with_arrow"
+        ]
+    ],
+    "rewards": {
+    }
+}
