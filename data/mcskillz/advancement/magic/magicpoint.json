@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "enchanted":{
+            "trigger": "enchanted_item"
+        },
+        "lightingbolt":{
+            "trigger": "minecraft:channeled_lightning"
+        },
+        "cured":{
+            "trigger": "minecraft:cured_zombie_villager"
+        }
+    },
+    "requirements": [
+            ["enchanted","lightingbolt","cured"]
+        ],
+    "rewards": {
+        "function": "mcskillz:magic/points"
+    }
+}

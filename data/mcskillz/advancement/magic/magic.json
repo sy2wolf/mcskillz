@@ -24,18 +24,13 @@
         "lightingbolt":{
             "trigger": "minecraft:channeled_lightning"
         },
-        "windblast":{
-            "trigger": "minecraft:consume_item",
-            "conditions": {
-                "item": {
-                    "items": "minecraft:wind_charge"
-                }
-            }
-        },
         "cured":{
             "trigger": "minecraft:cured_zombie_villager"
         }
     },
+    "requirements": [
+            ["enchanted","lightingbolt","cured"]
+        ],
     "rewards": {
         "experience": 7
     }

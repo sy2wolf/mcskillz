@@ -5,16 +5,18 @@
     "type": "minecraft:plain_message",
     "contents": {
       "text": "If you want to learn more about the skills, show your current score or display a leaderbord. here you wil find all the info how to do that, just choose the skill you want info about in the list below.",
-      "color": "gray"
+      "color": "white"
     }
   },
   "can_close_with_escape": true,
   "pause": true,
   "dialogs": [
-    "mcskillz:info/mining",
+    "mcskillz:info/archery",
     "mcskillz:info/chopping",
     "mcskillz:info/digging",
     "mcskillz:info/farming",
-    "mcskillz:info/melee"
+    "mcskillz:info/magic",
+    "mcskillz:info/melee",
+    "mcskillz:info/mining"
   ]
 }
