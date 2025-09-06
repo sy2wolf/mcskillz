@@ -2,10 +2,6 @@
 #confirm if datapack is loaded.
 tellraw @s {"text": "mcskillz-datapack loaded", "color": "gray", "italic": true}
 
-## Advancements
-#activate advancementtree for everyone.
-advancement grant @a only mcskillz:root
-
 ## Scoreboards
 # mining
 scoreboard objectives add mcskillz.mining_pnt dummy {"text": "Mining_points","color": "green","bold": true}
@@ -94,6 +90,17 @@ scoreboard players set #2_scale mcskillz.magic_lvlup_pnt 5
 scoreboard players set #2_offset mcskillz.magic_lvlup_pnt 38
 scoreboard players set #3_scale mcskillz.magic_lvlup_pnt 9
 scoreboard players set #3_offset mcskillz.magic_lvlup_pnt 158
+
+# alchemy
+scoreboard objectives add mcskillz.alchemy_pnt dummy {"text": "Alchemy_points","color": "green","bold": true}
+scoreboard objectives add mcskillz.alchemy_lvl dummy {"text": "Alchemy_level","color": "green","bold": true}
+scoreboard objectives add mcskillz.alchemy_lvlup_pnt dummy
+scoreboard players set #1_scale mcskillz.alchemy_lvlup_pnt 2
+scoreboard players set #1_offset mcskillz.alchemy_lvlup_pnt 7
+scoreboard players set #2_scale mcskillz.alchemy_lvlup_pnt 5
+scoreboard players set #2_offset mcskillz.alchemy_lvlup_pnt 38
+scoreboard players set #3_scale mcskillz.alchemy_lvlup_pnt 9
+scoreboard players set #3_offset mcskillz.alchemy_lvlup_pnt 158
 
 # exploration
 scoreboard objectives add mcskillz.exploration_pnt dummy {"text": "Exploration_points","color": "green","bold": true}

@@ -9,6 +9,7 @@ tellraw @a {"text": "The mcskillz-datapack being uninstalled!", "color": "gray",
 advancement revoke @a from mcskillz:root
 
 ## Scoreboards
+function mcskillz:clean_ui
 # mining
 scoreboard objectives remove mcskillz.mining_pnt
 scoreboard objectives remove mcskillz.mining_lvl
