@@ -28,6 +28,12 @@
             }
         }
     },
+    "requirements": [
+        [
+            "undetected",
+            "wallslide"
+        ]
+    ],
     "rewards": {
         "experience": 7
     }

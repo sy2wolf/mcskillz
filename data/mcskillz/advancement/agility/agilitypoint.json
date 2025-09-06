@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "undetected":{
+            "trigger": "minecraft:avoid_vibration"
+        },
+        "wallslide":{
+            "trigger": "minecraft:slide_down_block",
+            "conditions": {
+                "block": "minecraft:honey_block"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "undetected",
+            "wallslide"
+        ]
+    ],
+    "rewards": {
+        "function":"mcskillz:agility/points"
+    }
+}
