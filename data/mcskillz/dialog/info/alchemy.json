@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "Alchemy info",
+  "external_title": "Alchemy",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": [
+      {
+        "text": "This skill is trained by brewing potions.",
+        "color": "gray"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "label": "Scoreboard",
+      "action": {
+        "type": "run_command",
+        "command": "function mcskillz:alchemy/scoreboard"
+      }
+    },
+    {
+      "label": "My score",
+      "action": {
+        "type": "run_command",
+        "command": "function mcskillz:alchemy/ui"
+      }
+    },
+    {
+      "label": {"text":"Reset skill","color":"red"},
+      "action": {
+        "type": "run_command",
+        "command": "execute as @s run function mcskillz:alchemy/reset"
+      }
+    }
+  ]
+}

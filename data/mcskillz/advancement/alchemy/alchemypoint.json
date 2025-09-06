@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "brewed_potion":{
+            "trigger": "minecraft:brewed_potion"
+        }
+    },
+        "requirements":[
+        [
+            "brewed_potion"
+        ]
+    ],
+    "rewards": {
+        "function":"mcskillz:alchemy/points"
+    }
+}
