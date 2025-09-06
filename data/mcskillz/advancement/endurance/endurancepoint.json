@@ -1,0 +1,56 @@
+{
+    "criteria": {
+        "taken_damage":{
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "blocked": false,
+                    "taken": {
+                        "min": 1
+                    }
+                }
+            }
+        },
+        "fallen":{
+            "trigger": "minecraft:fall_from_height",
+            "conditions": {
+                "distance": {
+                    "y": 3
+                }
+            }
+        },
+        "Undying":{
+            "trigger": "minecraft:used_totem"
+        },
+        "lightingstrike":{
+            "trigger": "minecraft:lightning_strike",
+            "conditions": {
+                "lightning": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific": {
+                                "type": "minecraft:lightning",
+                                "entity_struck": {
+                                "type": "minecraft:player"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+        "requirements": [
+        [
+            "taken_damage",
+            "fallen",
+            "Undying",
+            "lightingstrike"
+        ]
+    ],
+    "rewards": {
+        "function": "mcskillz:endurance/points"
+    }
+}
