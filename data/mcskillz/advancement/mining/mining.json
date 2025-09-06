@@ -29,7 +29,6 @@
         }
     },
     "rewards": {
-        "experience": 7,
-        "function": "mcskillz:mining/reset"
+        "experience": 7
     }
 }

@@ -29,7 +29,6 @@
         }
     },
     "rewards": {
-        "experience": 7,
-        "function": "mcskillz:chopping/reset"
+        "experience": 7
     }
 }

@@ -29,7 +29,6 @@
         }
     },
     "rewards": {
-        "experience": 7,
-        "function": "mcskillz:farming/reset"
+        "experience": 7
     }
 }
