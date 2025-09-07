@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "Endurance info",
+  "external_title": "Endurance",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": [
+      {
+        "text": "This skill is trained by enduring damage.",
+        "color": "gray"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "label": {"text":"Reset skill","color":"red"},
+      "action": {
+        "type": "suggest_command",
+        "command": "execute as @s run function mcskillz:endurance/reset"
+      }
+    }
+  ]
+}

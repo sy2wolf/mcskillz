@@ -1,12 +1,12 @@
 {
   "type": "minecraft:multi_action",
-  "title": "Magic info",
-  "external_title": "Magic",
+  "title": "Endurance info",
+  "external_title": "Endurance",
   "body": {
     "type": "minecraft:plain_message",
     "contents": [
       {
-        "text": "This skill is trained by performing magic.",
+        "text": "This skill is trained by enduring damage.",
         "color": "gray"
       }
     ]
@@ -16,14 +16,14 @@
       "label": "Scoreboard",
       "action": {
         "type": "run_command",
-        "command": "trigger mcskillz.magictop"
+        "command": "trigger mcskillz.endurancetop"
       }
     },
     {
       "label": "My score",
       "action": {
         "type": "run_command",
-        "command": "trigger mcskillz.magicscore"
+        "command": "trigger mcskillz.endurancescore"
       }
     }
   ]

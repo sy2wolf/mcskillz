@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:dialog_list",
+  "title": "MCskillz settings",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": {
+      "text": "here you can customize your MCskillz experience. Select a skill to adjust its settings.",
+      "color": "white"
+    }
+  },
+  "can_close_with_escape": true,
+  "pause": true,
+  "dialogs": [
+    "mcskillz:settings/agility",
+    "mcskillz:settings/alchemy",
+    "mcskillz:settings/archery",
+    "mcskillz:settings/chopping",
+    "mcskillz:settings/digging",
+    "mcskillz:settings/endurance",
+    "mcskillz:settings/farming",
+    "mcskillz:settings/fishing",
+    "mcskillz:settings/magic",
+    "mcskillz:settings/melee",
+    "mcskillz:settings/mining"
+  ]
+}

@@ -1,12 +1,12 @@
 {
   "type": "minecraft:multi_action",
-  "title": "Magic info",
-  "external_title": "Magic",
+  "title": "Fishing info",
+  "external_title": "Fishing",
   "body": {
     "type": "minecraft:plain_message",
     "contents": [
       {
-        "text": "This skill is trained by performing magic.",
+        "text": "This skill is trained by fishing up loot.",
         "color": "gray"
       }
     ]
@@ -16,14 +16,14 @@
       "label": "Scoreboard",
       "action": {
         "type": "run_command",
-        "command": "trigger mcskillz.magictop"
+        "command": "trigger mcskillz.fishingtop"
       }
     },
     {
       "label": "My score",
       "action": {
         "type": "run_command",
-        "command": "trigger mcskillz.magicscore"
+        "command": "trigger mcskillz.fishingscore"
       }
     }
   ]

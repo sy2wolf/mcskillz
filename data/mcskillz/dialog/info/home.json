@@ -11,11 +11,14 @@
   "can_close_with_escape": true,
   "pause": true,
   "dialogs": [
+    "mcskillz:info/agility",
     "mcskillz:info/alchemy",
     "mcskillz:info/archery",
     "mcskillz:info/chopping",
     "mcskillz:info/digging",
+    "mcskillz:info/endurance",
     "mcskillz:info/farming",
+    "mcskillz:info/fishing",
     "mcskillz:info/magic",
     "mcskillz:info/melee",
     "mcskillz:info/mining"

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "Fishing info",
+  "external_title": "Fishing",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": [
+      {
+        "text": "This skill is trained by fishing up loot.",
+        "color": "gray"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "label": {"text":"Reset skill","color":"red"},
+      "action": {
+        "type": "suggest_command",
+        "command": "execute as @s run function mcskillz:fishing/reset"
+      }
+    }
+  ]
+}

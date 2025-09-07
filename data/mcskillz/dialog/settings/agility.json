@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "Agility info",
+  "external_title": "Agility",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": [
+      {
+        "text": "This skill is trained by skilfull movement such as sneaking and sliding.",
+        "color": "gray"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "label": {"text":"Reset skill","color":"red"},
+      "action": {
+        "type": "suggest_command",
+        "command": "execute as @s run function mcskillz:agility/reset"
+      }
+    }
+  ]
+}

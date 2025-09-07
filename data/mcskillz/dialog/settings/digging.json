@@ -13,17 +13,10 @@
   },
   "actions": [
     {
-      "label": "Scoreboard",
+      "label": {"text":"Reset skill","color":"red"},
       "action": {
-        "type": "run_command",
-        "command": "trigger mcskillz.diggingtop"
-      }
-    },
-    {
-      "label": "My score",
-      "action": {
-        "type": "run_command",
-        "command": "trigger mcskillz.diggingscore"
+        "type": "suggest_command",
+        "command": "execute as @s run function mcskillz:digging/reset"
       }
     }
   ]
