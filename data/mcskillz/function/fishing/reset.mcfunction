@@ -11,6 +11,3 @@ scoreboard players set @s mcskillz.fishingscore 0
 scoreboard players enable @s mcskillz.fishingscore
 scoreboard players set @s mcskillz.fishingtop 0
 scoreboard players enable @s mcskillz.fishingtop
-
-#announce reset
-tellraw @s [{"text":"[MCSkillz] ","color":"green","bold":true},{"text":"Your fishing skill has been reset!","color":"white"}]

@@ -11,6 +11,3 @@ scoreboard players set @s mcskillz.diggingscore 0
 scoreboard players enable @s mcskillz.diggingscore
 scoreboard players set @s mcskillz.diggingtop 0
 scoreboard players enable @s mcskillz.diggingtop
-
-#announce reset
-tellraw @s [{"text":"[MCSkillz] ","color":"green","bold":true},{"text":"Your digging skill has been reset!","color":"white"}]

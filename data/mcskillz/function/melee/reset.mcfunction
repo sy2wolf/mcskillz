@@ -11,6 +11,3 @@ scoreboard players set @s mcskillz.agilityscore 0
 scoreboard players enable @s mcskillz.agilityscore
 scoreboard players set @s mcskillz.agilitytop 0
 scoreboard players enable @s mcskillz.agilitytop
-
-#announce reset
-tellraw @s [{"text":"[MCSkillz] ","color":"green","bold":true},{"text":"Your melee skill has been reset!","color":"white"}]

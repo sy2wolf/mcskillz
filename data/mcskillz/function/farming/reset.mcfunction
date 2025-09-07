@@ -11,6 +11,3 @@ scoreboard players set @s mcskillz.farmingscore 0
 scoreboard players enable @s mcskillz.farmingscore
 scoreboard players set @s mcskillz.farmingtop 0
 scoreboard players enable @s mcskillz.farmingtop
-
-#announce reset
-tellraw @s [{"text":"[MCSkillz] ","color":"green","bold":true},{"text":"Your farming skill has been reset!","color":"white"}]

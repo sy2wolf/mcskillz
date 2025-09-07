@@ -11,6 +11,3 @@ scoreboard players set @s mcskillz.miningscore 0
 scoreboard players enable @s mcskillz.miningscore
 scoreboard players set @s mcskillz.miningtop 0
 scoreboard players enable @s mcskillz.miningtop
-
-#announce reset
-tellraw @s [{"text":"[MCSkillz] ","color":"green","bold":true},{"text":"Your mining skill has been reset!","color":"white"}]
