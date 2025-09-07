@@ -1,16 +1,33 @@
 {
   "type": "minecraft:multi_action",
-  "title": "Agility info",
+  "title": [
+    {
+      "text":"Agility info",
+      "color": "green",
+      "bold": true
+    }
+  ],
   "external_title": "Agility",
-  "body": {
-    "type": "minecraft:plain_message",
-    "contents": [
-      {
-        "text": "This skill is trained by skilfull movement such as sneaking and sliding.",
-        "color": "gray"
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:leather_boots",
+        "components": {
+          "enchantment_glint_override": true
+        }
       }
-    ]
-  },
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "This skill is trained by skilfull movement such as sneaking and sliding.",
+          "color": "white"
+        }
+      ]
+    }
+  ],
   "actions": [
     {
       "label": "Scoreboard",

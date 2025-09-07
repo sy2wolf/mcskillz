@@ -1,16 +1,33 @@
 {
   "type": "minecraft:multi_action",
-  "title": "Melee info",
+  "title": [
+    {
+      "text":"Melee info",
+      "color": "green",
+      "bold": true
+    }
+  ],
   "external_title": "Melee",
-  "body": {
-    "type": "minecraft:plain_message",
-    "contents": [
-      {
-        "text": "This skill is trained by melee dirt, gravel, sand, clay and mud.",
-        "color": "gray"
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:iron_sword",
+        "components": {
+          "enchantment_glint_override": true
+        }
       }
-    ]
-  },
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "This skill is trained by melee dirt, gravel, sand, clay and mud.",
+          "color": "white"
+        }
+      ]
+    }
+  ],
   "actions": [
     {
       "label": "Scoreboard",

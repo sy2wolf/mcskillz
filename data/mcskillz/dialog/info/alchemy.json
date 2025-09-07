@@ -1,16 +1,33 @@
 {
   "type": "minecraft:multi_action",
-  "title": "Alchemy info",
+  "title": [
+    {
+      "text":"Alchemy info",
+      "color": "green",
+      "bold": true
+    }
+  ],
   "external_title": "Alchemy",
-  "body": {
-    "type": "minecraft:plain_message",
-    "contents": [
-      {
-        "text": "This skill is trained by brewing potions.",
-        "color": "gray"
+  "body": [
+    {
+      "type":"minecraft:item",
+      "item":{
+        "id":"minecraft:potion",
+        "components":{
+          "enchantment_glint_override":true
+        }
       }
-    ]
-  },
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "This skill is trained by brewing potions.",
+          "color": "white"
+        }
+      ]
+    }
+  ],
   "actions": [
     {
       "label": "Scoreboard",

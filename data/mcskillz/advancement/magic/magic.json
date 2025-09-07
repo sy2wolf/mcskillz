@@ -2,7 +2,7 @@
     "parent": "mcskillz:root",
     "display": {
         "icon": {
-            "id": "minecraft:enchanted_book",
+            "id": "minecraft:enchanting_table",
             "count": 1,
             "components": {
                 "enchantments": {

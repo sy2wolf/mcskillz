@@ -1,16 +1,33 @@
 {
   "type": "minecraft:multi_action",
-  "title": "Farming info",
+  "title": [
+    {
+      "text": "Farming info",
+      "color": "green",
+      "bold": true
+    }
+  ],
   "external_title": "Farming",
-  "body": {
-    "type": "minecraft:plain_message",
-    "contents": [
-      {
-        "text": "This skill is trained by farming dirt, gravel, sand, clay and mud.",
-        "color": "gray"
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:iron_hoe",
+        "components": {
+          "enchantment_glint_override": true
+        }
       }
-    ]
-  },
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "This skill is trained by farming dirt, gravel, sand, clay and mud.",
+          "color": "white"
+        }
+      ]
+    }
+  ],
   "actions": [
     {
       "label": "Scoreboard",
