@@ -6,5 +6,11 @@ scoreboard players set @s mcskillz.archery_lvl 0
 #revoke advancement
 advancement revoke @s from mcskillz:archery/archerypoint
 
+# reset triggers
+scoreboard players set @s mcskillz.archeryscore 0
+scoreboard players enable @s mcskillz.archeryscore
+scoreboard players set @s mcskillz.archerytop 0
+scoreboard players enable @s mcskillz.archerytop
+
 #announce reset
 tellraw @s [{"text":"[MCSkillz] ","color":"green","bold":true},{"text":"Your archery skill has been reset!","color":"white"}]

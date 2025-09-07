@@ -6,5 +6,11 @@ scoreboard players set @s mcskillz.alchemy_lvl 0
 #revoke advancement
 advancement revoke @s from mcskillz:alchemy/alchemypoint
 
+# reset triggers
+scoreboard players set @s mcskillz.alchemyscore 0
+scoreboard players enable @s mcskillz.alchemyscore
+scoreboard players set @s mcskillz.alchemytop 0
+scoreboard players enable @s mcskillz.alchemytop
+
 #announce reset
 tellraw @s [{"text":"[MCSkillz] ","color":"green","bold":true},{"text":"Your alchemy skill has been reset!","color":"white"}]
