@@ -33,14 +33,14 @@
       "label": "Scoreboard",
       "action": {
         "type": "run_command",
-        "command": "trigger mcskillz.agilitytop"
+        "command": "trigger mcskillz.miningtop"
       }
     },
     {
       "label": "My score",
       "action": {
         "type": "run_command",
-        "command": "trigger mcskillz.agilityscore"
+        "command": "trigger mcskillz.miningscore"
       }
     }
   ]
