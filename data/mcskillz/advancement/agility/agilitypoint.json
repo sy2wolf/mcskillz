@@ -1,7 +1,14 @@
 {
     "criteria": {
         "undetected":{
-            "trigger": "minecraft:avoid_vibration"
+            "trigger": "minecraft:avoid_vibration",
+            "conditions":{
+                "player":{
+                    "distance":{
+                        "absolute":5
+                    }
+                }
+            }
         },
         "wallslide":{
             "trigger": "minecraft:slide_down_block",
