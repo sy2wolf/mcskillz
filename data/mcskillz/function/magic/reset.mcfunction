@@ -7,7 +7,7 @@ scoreboard players set @s mcskillz.magic_lvl 0
 advancement revoke @s from mcskillz:magic/magicpoint
 
 # reset triggers
-scoreboard players set @s mcskillz.agilityscore 0
-scoreboard players enable @s mcskillz.agilityscore
-scoreboard players set @s mcskillz.agilitytop 0
-scoreboard players enable @s mcskillz.agilitytop
+scoreboard players set @s mcskillz.magicscore 0
+scoreboard players enable @s mcskillz.magicscore
+scoreboard players set @s mcskillz.magictop 0
+scoreboard players enable @s mcskillz.magictop

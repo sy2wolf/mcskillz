@@ -7,7 +7,7 @@ scoreboard players set @s mcskillz.melee_lvl 0
 advancement revoke @s from mcskillz:melee/meleepoint
 
 # reset triggers
-scoreboard players set @s mcskillz.agilityscore 0
-scoreboard players enable @s mcskillz.agilityscore
-scoreboard players set @s mcskillz.agilitytop 0
-scoreboard players enable @s mcskillz.agilitytop
+scoreboard players set @s mcskillz.meleescore 0
+scoreboard players enable @s mcskillz.meleescore
+scoreboard players set @s mcskillz.meleetop 0
+scoreboard players enable @s mcskillz.meleetop

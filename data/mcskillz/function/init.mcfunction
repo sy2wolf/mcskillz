@@ -6,6 +6,7 @@ tellraw @s {"text": "mcskillz-datapack loaded", "color": "gray", "italic": true}
 # info
 #triggers
 scoreboard objectives add mcskillz trigger
+
 # mining
 #triggers
 scoreboard objectives add mcskillz.miningscore trigger
