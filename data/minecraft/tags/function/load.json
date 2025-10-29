@@ -1,5 +1,6 @@
 {
     "values": [
-        "mcskillz:init"
+        "mcskillz:load",
+        "mcskillz:sec"
     ]
 }
