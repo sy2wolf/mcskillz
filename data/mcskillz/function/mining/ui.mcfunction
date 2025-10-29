@@ -1,5 +1,5 @@
 #show skill actionbar
-title @p actionbar \
+title @s actionbar \
 [{"text":"Mining lvl: ","color":green,"bold":true},\
 {"score":{"name":"@s","objective":"mcskillz.mining_lvl"},"color":green,"bold":false},\
 {"text":" | Xp: ","color":green,"bold":false},\

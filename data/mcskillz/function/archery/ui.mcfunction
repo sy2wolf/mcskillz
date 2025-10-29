@@ -1,5 +1,5 @@
 #show skill actionbar
-title @p actionbar \
+title @s actionbar \
 [{"text":"Archery lvl: ","color":green,"bold":true},\
 {"score":{"name":"@s","objective":"mcskillz.archery_lvl"},"color":green,"bold":false},\
 {"text":" | Xp: ","color":green,"bold":false},\
